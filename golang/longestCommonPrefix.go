@@ -1,6 +1,5 @@
 package main
 
-import "fmt"
 
 func longestCommonPrefix(strs []string) string {
 	prefix := ""
@@ -32,7 +31,4 @@ func longestCommonPrefix(strs []string) string {
 	}
 	return prefix
 }
-func main() {
-	response := longestCommonPrefix([]string{""})
-	fmt.Printf("%+v\n", response)
-}
+
